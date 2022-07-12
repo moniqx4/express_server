@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "server code for silent bid app",
+  "description": "server code for express server",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
@@ -9,19 +9,20 @@
     "eslint": "src/"
   },
   "start": "echo \"Error: no specified test\" && exit 1",
-  "author": "Monica Dixon",
+  "author": "MLProductions",
   "license": "MIT",
   "private": true,
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "helmet": "^3.22.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.20.2",
-    "nodemon": "^2.0.3"
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.19"
   }
 }
